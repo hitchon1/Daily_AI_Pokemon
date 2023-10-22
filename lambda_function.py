@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     #AI Message
     input = "Based on the following pokemon info please write an email on how to defeat the pokemon and make the email interesting. pokemon name: " + name + " Pokemon Height: " + height + " Pokemone Wight: " + weight + " Pokemone Type: " +types
 
-    openai.api_key = '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'
+    openai.api_key = 'ENTER YOUR API KEY'
 
     response = openai.ChatCompletion.create(
     model="gpt-4",
